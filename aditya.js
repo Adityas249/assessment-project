@@ -5,7 +5,7 @@ function weather(){
     console.log(city);
     var xmlhttp= new XMLHttpRequest();
  
-    var url="http://api.openweathermap.org/data/2.5/weather?q="+city + "&APPID=a01af73599e449a631319b2478d67506";
+    var url="https://api.openweathermap.org/data/2.5/weather?q="+city + "&APPID=a01af73599e449a631319b2478d67506";
     xmlhttp.open("GET", url, true);
 
     xmlhttp.send();
