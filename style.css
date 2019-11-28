@@ -1,0 +1,151 @@
+*
+
+
+
+
+body{
+    background-color:#99ccff;
+    
+}
+
+.all{
+	background-image: url(..\HD-Weather-Background.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+
+}
+.shein{
+    height: 60px;
+  
+    font-size: 54px;
+  
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px red;
+    font-family: 'Calistoga', cursive;
+    text-align:center;
+  }
+ #value{
+    font-family: "Roboto",sans-serif;
+    background-color: white;
+    width: 20%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+
+  
+  }
+  .demo{
+   color: black;
+   font-size: 30px;
+font-family: 'Bad Script', cursive;
+color:#fff;
+
+
+  }
+  .btn
+  {
+    	
+    border:0px solid #ff4b2b;
+    background-color: #ff4b2b;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding:15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 20%;
+    cursor: pointer;
+  }
+   button:hover, button:active{
+    background: #43A047;
+  }
+#xyz{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+#abc{
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+}
+#def{
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+}
+  #demo1{
+    font-size: 14px;
+    color: black;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    
+  }
+
+ #container{
+        background-color:#ffffcc;
+        position:relative;
+        height:80%;
+        width:80%;
+        padding:20px;
+        align:center;
+        top:5%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        border:1px solid black;
+
+      }
+      #modal{
+        background-color: RGBA(0,0,0,0.5);
+
+        position:fixed;
+        height:100%;
+        width:100%;
+	
+        padding:20px;
+        left:0px;
+        top:0px;
+        display:none;
+      }
+      input{
+        background-color: RGBA(255,255,255,0);
+        border:0px;
+        padding:10px;
+        margin:5px 10px;
+        text-align:center;
+	padding:400px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #close{
+        background-color: #80ffbf;
+  border: none;
+  color: white;
+  
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	position:bottom
+      }
+
+.news{
+	text-align:right;
+	font-style:italic;
+ 	font-weight: bold;
+	font-size:2.5em;
+	float:right;
+	position:relative
+        text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px red;
+        color:#fff;
+        
+}
