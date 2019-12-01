@@ -1,8 +1,4 @@
 *
-
-
-
-
 body{
     background-color:#99ccff;
     
@@ -149,5 +145,5 @@ color:#fff;
         font-size:1.5em;
 text-align:right;
         float:right;
-        position:relative
+        position:fixed;
 }
