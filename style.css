@@ -138,14 +138,15 @@ color:#fff;
 	position:bottom
       }
 
-.news{
-	text-align:right;
-	font-style:italic;
- 	font-weight: bold;
-	font-size:2.5em;
-	float:right;
-	position:relative
-        text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px red;
+.newsimg
+{
+  color:#fff;
+  font-family: Arial, Helvetica, sans-serif;
+  position:fixed;
+  right:0px;
+  bottom: 60px;
+  text-shadow: 1px 1px 2px rgb(253, 252, 252), 0 0 25px rgb(0, 255, 221), 0 0 5px rgb(0, 255, 255);
         color:#fff;
-        
+        font-size:1.5em;
+
 }
